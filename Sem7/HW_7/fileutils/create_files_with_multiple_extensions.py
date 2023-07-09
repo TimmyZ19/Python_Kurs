@@ -1,5 +1,3 @@
-# Генератор файлов
-
 import os
 import random
 import string
@@ -36,8 +34,8 @@ def create_files_with_multiple_extensions(extensions, num_files_per_extension, d
                                     min_file_size, max_file_size, num_files)
 
 
-# Пример использования
-extensions = ['txt', 'csv', 'jpg']
-num_files_per_extension = [10, 5, 8]
-directory = 'generated_files'
-create_files_with_multiple_extensions(extensions, num_files_per_extension, directory)
+# # Пример использования
+# extensions = ['txt', 'csv', 'jpg']
+# num_files_per_extension = [10, 5, 8]
+# directory = 'generated_files'
+# create_files_with_multiple_extensions(extensions, num_files_per_extension, directory)
